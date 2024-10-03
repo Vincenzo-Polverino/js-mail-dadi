@@ -5,3 +5,8 @@ console.log('linked');
 let user_dice = Math.floor(Math.random() * 6) + 1;
 
 let cpu_dice = Math.floor(Math.random() * 6) + 1;
+
+console.log('User:', user_dice);
+console.log('CPU:', cpu_dice);
+
+//Stabilire il vincitore, in base a chi fa il punteggio più alto

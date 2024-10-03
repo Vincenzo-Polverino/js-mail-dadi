@@ -3,6 +3,7 @@ console.log('linked');
 //Chiedi all’utente la sua email
 let mail = prompt('inserisci la tua email')
 
-// controlla che sia nella lista di chi può accedere
+let mail_list = ['prova@test.com', 'caio@sempronio.com', 'tizio@qualcosa.com']
 
-//stampa un messaggio appropriato sull’esito del controllo.
+// controlla che sia nella lista di chi può accedere
+let present_mail = mail_list.includes(mail)

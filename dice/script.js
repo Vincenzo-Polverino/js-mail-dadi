@@ -10,3 +10,15 @@ console.log('User:', user_dice);
 console.log('CPU:', cpu_dice);
 
 //Stabilire il vincitore, in base a chi fa il punteggio più alto
+
+let result
+if(user_dice > cpu_dice){
+    console.log('Complimenti hai vinto!');
+    
+}else if (user_dice < cpu_dice){
+    console.log('Mi spiace hai perso');
+    
+}else{
+    console.log('Pareggio');
+    
+}
